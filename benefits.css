@@ -1,0 +1,40 @@
+.benefits{position:relative;isolation:isolate;height:68.666667cqw;background:#ffc8e2 url('./assets/benefits-background.jpg') center/100% 100% no-repeat;color:var(--ink)}
+.benefits-eyebrow{position:absolute;top:6.833333cqw;left:0;width:100%;margin:0;text-align:center;font:400 1cqw/1.166667cqw Arial,Helvetica,sans-serif;color:#ab6e9e}
+.benefits-heading{position:absolute;top:9.666667cqw;left:0;width:100%;margin:0;text-align:center;font-family:Bebas,'Arial Narrow',Arial,sans-serif;font-size:4.5cqw;line-height:4.25cqw;font-weight:700;text-transform:uppercase}
+.benefits-heading>span{display:block}
+.benefits-heading>span:first-child{transform:translateX(-.333333cqw)}
+.benefits-heading>span:last-child{font-size:4.583333cqw}
+.benefits-heading em{font-style:normal;color:var(--pink)}
+.benefits-grid{position:absolute;top:21.416667cqw;left:1.666667cqw;right:1.666667cqw;height:40.666667cqw;display:grid;grid-template-columns:397fr 325fr 398fr;gap:1.666667cqw}
+.benefits-left{display:grid;grid-template-rows:1fr 1fr;gap:1.833333cqw;min-width:0}
+.benefits-right{display:grid;grid-template-rows:149fr 149fr 150fr;gap:1.666667cqw;min-width:0}
+.benefit-card{position:relative;border-radius:2.333333cqw;background:var(--cream);min-width:0}
+.benefit-trainers{background:var(--pink);color:var(--cream)}
+.benefit-trial{background:var(--lime)}
+.benefit-card h3{position:absolute;left:1.666667cqw;right:1.25cqw;bottom:1.75cqw;margin:0;font-family:Bebas,'Arial Narrow',Arial,sans-serif;font-size:1.833333cqw;line-height:2cqw;font-weight:700;text-transform:uppercase}
+.benefit-trainers h3{bottom:1.666667cqw}
+.benefit-branches h3,.benefit-trial h3{bottom:1.583333cqw}
+.benefit-icon{position:absolute;object-fit:contain;left:1.5cqw;top:1.5cqw;width:3.083333cqw;height:auto;pointer-events:none}
+.benefit-trainers .benefit-icon{left:1.833333cqw;top:1.666667cqw;width:2.916667cqw}
+.benefit-federation .benefit-icon{left:1.833333cqw;width:2.916667cqw}
+.benefits-photo{margin:0;overflow:hidden;border-radius:1.666667cqw;min-width:0}
+.benefits-photo img{display:block;width:100%;height:100%;object-fit:cover}
+@media(max-width:720px){
+ .benefits{height:auto;padding:56px 12px 48px;background-size:auto 100%}
+ .benefits-eyebrow{position:static;font-size:12px;line-height:16px;margin:0 0 14px}
+ .benefits-heading{position:static;font-size:40px;line-height:40px;margin:0 0 32px}
+ .benefits-heading>span:first-child{transform:none}
+ .benefits-heading>span:last-child{font-size:inherit}
+ .benefits-grid{position:static;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:'trainers federation' 'photo photo' 'branches trial' 'experience experience';gap:12px;height:auto}
+ .benefits-left,.benefits-right{display:contents}
+ .benefit-card{border-radius:24px;min-height:190px}
+ .benefit-trainers{grid-area:trainers}
+ .benefit-federation{grid-area:federation}
+ .benefits-photo{grid-area:photo;height:auto;aspect-ratio:325/488;border-radius:24px}
+ .benefit-branches{grid-area:branches;min-height:170px}
+ .benefit-trial{grid-area:trial;min-height:170px}
+ .benefit-experience{grid-area:experience;min-height:150px}
+ .benefit-card h3{left:16px;right:12px;bottom:18px;font-size:20px;line-height:23px;overflow-wrap:normal}
+ .benefit-icon,.benefit-trainers .benefit-icon,.benefit-federation .benefit-icon{left:16px;top:16px;width:32px;height:auto}
+}
+@media(max-width:360px){.benefits-heading{font-size:34px;line-height:35px}.benefit-card h3{font-size:18px;line-height:21px;left:14px;right:10px}.benefit-card{min-height:205px}.benefit-experience{min-height:150px}}
