@@ -1,6 +1,6 @@
 @font-face{font-family:Bebas;src:url('./assets/bebas-neue-cyrillic.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:Bebas;src:url('./assets/bebas-neue-bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
-:root{--pink:#ff238b;--cream:#fdfaf4;--lime:#b3ee40;--ink:#2f2f2f}
+:root{--pink:#b28ef6;--cream:#fdfaf4;--lime:#6019d3;--ink:#2f2f2f}
 *{box-sizing:border-box}
 html{background:var(--cream);color:var(--ink)}
 body{margin:0;font-family:Arial,Helvetica,sans-serif}
@@ -27,7 +27,7 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
 .socials{position:absolute;right:.75cqw;top:.833333cqw;display:flex;gap:.416667cqw;z-index:5}
 .socials button{display:grid;place-items:center;width:2.916667cqw;height:2.916667cqw;padding:.708333cqw;border:0;border-radius:50%;background:var(--pink);color:var(--cream)}
 .socials svg{width:100%;height:100%;fill:currentColor}
-.socials button:hover{background:#e90f77}
+.socials button:hover{background:#a27be7}
 .gallery-dots{position:absolute;bottom:.833333cqw;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:.416667cqw;z-index:4}
 .gallery-dots button{padding:0;position:relative;width:.416667cqw;height:.416667cqw;border-radius:999px;background:var(--cream);border:0;opacity:.9;transition:width .15s ease}
 .gallery-dots button::after{content:'';position:absolute;inset:-9px -3px}

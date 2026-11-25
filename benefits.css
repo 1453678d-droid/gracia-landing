@@ -1,5 +1,5 @@
-.benefits{position:relative;isolation:isolate;height:68.666667cqw;background:#ffc8e2 url('./assets/benefits-background.jpg') center/100% 100% no-repeat;color:var(--ink)}
-.benefits-eyebrow{position:absolute;top:6.833333cqw;left:0;width:100%;margin:0;text-align:center;font:400 1cqw/1.166667cqw Arial,Helvetica,sans-serif;color:#ab6e9e}
+.benefits{position:relative;isolation:isolate;height:68.666667cqw;background:#e8defa url('./assets/benefits-background.jpg') center/100% 100% no-repeat;color:var(--ink)}
+.benefits-eyebrow{position:absolute;top:6.833333cqw;left:0;width:100%;margin:0;text-align:center;font:400 1cqw/1.166667cqw Arial,Helvetica,sans-serif;color:#7b639a}
 .benefits-heading{position:absolute;top:9.666667cqw;left:0;width:100%;margin:0;text-align:center;font-family:Bebas,'Arial Narrow',Arial,sans-serif;font-size:4.5cqw;line-height:4.25cqw;font-weight:700;text-transform:uppercase}
 .benefits-heading>span{display:block}
 .benefits-heading>span:first-child{transform:translateX(-.333333cqw)}

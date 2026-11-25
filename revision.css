@@ -38,7 +38,7 @@
 .visit-steps p{font-size:14px;margin:0;max-width:210px;line-height:1.5}
 .growth-head{margin-top:65px!important;margin-bottom:32px!important;max-width:800px}
 .merged-growth{gap:22px}
-.merged-growth .growth-item{background:#ffc8e25c;border:0;border-radius:24px;padding:25px;display:grid;grid-template-columns:52px 1fr;column-gap:18px}
+.merged-growth .growth-item{background:#e8defa5c;border:0;border-radius:24px;padding:25px;display:grid;grid-template-columns:52px 1fr;column-gap:18px}
 .merged-growth .outline-number{grid-column:1;grid-row:1/5;font-size:53px;margin:0}
 .merged-growth .small-cap,.merged-growth h3,.merged-growth p{grid-column:2}
 .merged-growth .small-cap{font-size:12px;margin:0 0 12px}
@@ -72,3 +72,24 @@
 
 .program-photo{max-height:none;max-width:860px;margin:8px auto 44px}.program-photo img{aspect-ratio:4/3;object-fit:contain}.program-photo>p{position:relative;left:auto;right:auto;bottom:auto;max-width:100%;width:100%;border-radius:0;margin:0}
 @media(max-width:720px){.program-photo{margin-bottom:33px}.program-photo>p{border-radius:0 0 14px 14px}}
+
+/* Палитра от 25 ноября: фиолетовый акцент и два тона лаванды. */
+:root{--accent-purple:#6019d3;--vivid-lavender:#b28ef6;--soft-lavender:#e8defa;--pink:var(--vivid-lavender);--lime:var(--accent-purple)}
+.continuation{--blush:var(--soft-lavender)}
+.stage .intro,.fuchsia,.first-visit{color:var(--ink)}
+.stage .nav a,.first-visit .kicker,.fuchsia .kicker{color:var(--ink)}
+.stage .nav .nav-highlight{color:var(--cream)}
+.button:not(.button-secondary){color:var(--cream)!important}
+.button-secondary{color:var(--ink)!important}
+.photo-tag,.creative-photo figcaption,.lime-panel{color:var(--cream)!important}
+.visit-steps li>span,.route-steps li:first-child .route-number,.route-steps li:last-child .route-number{color:var(--cream)}
+.stage .trophy{filter:hue-rotate(-65deg)}
+.socials button{color:var(--accent-purple)}
+.section-head h2 em,.branch-index,.inline-steps b,.event-list span,.program-list li span,.check-list li:before,.fuchsia .check-list li:before,.review-nav>a span,.footer h2,.faq-list summary>span{color:var(--accent-purple)}
+.footer h2{color:var(--vivid-lavender)}
+.path-timeline li,.first-visit .visit-steps:before{border-color:#2f2f2f55}
+.visit-steps:before{background:#2f2f2f55}
+.path-timeline li:before{background:var(--accent-purple)}
+.first-visit-head .kicker{color:var(--ink)}
+
+.route-line{stroke:var(--accent-purple)}.route-number{border-color:var(--accent-purple)}.socials button:hover{background:var(--soft-lavender)}
